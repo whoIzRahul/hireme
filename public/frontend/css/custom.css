@@ -1,0 +1,460 @@
+/* Header section of css */
+#header{
+    margin: 10px;
+}
+
+.navbar-nav{
+    padding-left: 50% !important;
+}
+
+.header-list li a{
+    font-weight: bold   ;
+    margin-left: 10px;
+}
+.header-list li button{
+    font-weight: bold   ;
+    margin-left: 20px;
+    background-color: #6495ed;
+    color: white;
+}
+/* End of header Section */
+
+/* Carousel css start */
+.slider-images img{
+    filter: brightness(30%);
+}
+
+.carousel-caption
+{
+    top: 30%;
+}
+
+.carousel-caption p{
+    font-size: 24px;
+    filter: contrast(20%);
+}
+/* Carousel css end */
+
+/* Standout section css start */
+
+#standout .row{
+    width: 80%;
+    margin: auto;
+}
+
+.standout-main div{
+    height: auto;
+}
+
+.standheader{
+    padding: 20px;
+}
+
+.standheader h3{
+    font-size: 32px;
+    font-family: monospace;
+}
+
+.standheader h3 span{
+    font-weight: bold;
+    color:#6495ed;
+    padding: none;
+}
+
+.standheader p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.standicon{
+    background-color: #6495ed;
+    color: #fff;
+    width: 40%;
+    border-radius: 50%;
+    margin: auto;
+}
+.standicon i{
+    font-size: 40px;
+    padding: 25px;
+    border-radius: 50%;
+}
+
+.row h5{
+    font-size: 21.6px;
+    font-family: 'Merriweather,serif';
+}
+
+.fake-button button{
+    font-size: 20px;
+    color: #fff;
+    background-color: #6495ed;
+    border-radius: 0px;
+}
+
+/* Standout section css end */
+
+/* Employers section css start */
+
+#employers{
+    background: #f8f9fa;
+    padding: 5%;
+}
+
+#employers .container{
+    width: 75%; 
+}
+
+#employers h2{
+    color: #6495ed;
+    font-weight: 700;
+}
+
+#employers h6{
+    color: #8991a0;
+    font-weight: 400;
+}
+
+#employers .col-lg-8,.col-lg-4{
+    height: 300px;
+}
+
+.contentwithslide .col-md-12,.col-sm-12{
+    height: auto !important;
+}
+
+
+.contentwithslide p{
+    font-family: 'Merriweather, serif';
+    font-size: 16px;
+    line-height: 2rem;
+}
+
+#employers a{
+    text-decoration: none;
+    color: #6495ed;
+}
+
+#employers a:hover{
+    text-decoration: underline;
+    color: #9268ec;
+}
+/* Employers section css end */
+
+
+/* Job Seekers section css start */
+
+#jobseeker{
+background-color: #fff;
+padding: 5%;
+}
+
+#jobseeker .col-lg-8,.col-lg-4{
+    height: 350px;
+}
+
+#jobseeker .container{
+    width: 70%; 
+}
+
+#jobseeker h2{
+    color: #6495ed;
+    font-weight: 700;
+}
+
+#jobseeker h6{
+    color: #8991a0;
+    font-weight: 400;
+}
+
+#jobseeker a{
+    text-decoration: none;
+    color: #6495ed;
+}
+
+#jobseeker a:hover{
+    text-decoration: underline;
+    color: #9268ec;
+}
+
+/* Job Seekers section css end */
+
+
+/* Featured jobs section css start */
+
+#featuredjob{
+    background: #f8f9fa;
+}
+  
+#featuredjob h3{
+    font-family: 'Merriweather, Seriff';
+    font-weight: 500;
+    padding: 30px 0 0 0;
+}
+
+#featuredjob h6{
+    font-family: 'Merriweather, Seriff';
+    filter: brightness(50%);
+    font-size: 18px;
+    padding: 10px 0 20px 0;
+}
+
+.features ul{
+    text-align: center;
+}
+
+.featuredmain-container{
+    margin: auto;
+    width: 80%;
+}
+
+.featuredsub-container{
+    padding-bottom: 30px;
+}
+
+.features li{
+    padding: 5px;
+    border: 1px solid rgb(180, 174, 174);
+    background-color: #fff;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    font-family: 'Merriweather';
+}
+
+/* Featured jobs section css end */
+
+/* Footer section of css */
+#footer{
+    background-color: #6495ed;
+    padding: 15px 15px 0 15px;
+}
+
+.footer-links li{
+    display: inline;
+    list-style: none;
+    
+}
+
+.footer-links a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer-links a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+
+.footer-icons li{
+    display: inline;
+    list-style: none;
+}
+
+.footer-icons a{
+    text-decoration: none;
+}
+
+.footer-icons .fa{
+    color: white;
+    padding: 13px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid rgb(212, 209, 209);
+}
+
+.footer-caption{
+    color: white;
+    height: auto;
+}
+
+.footer-caption li{
+    display: inline;
+    list-style: none;
+}
+
+/* End of footer section  */
+
+
+
+/* Job Seekers section css start */
+
+#_jobseeker{
+    background-color: #fff;
+    padding: 5%;
+    padding-bottom: 2%;
+    }
+    
+    ._jobhead{
+        padding-bottom: 20px;
+    }
+
+    #_jobseeker .col-lg-8,.col-lg-4{
+        height: 350px;
+    }
+    
+    #_jobseeker .container{
+        width: 85%; 
+    }
+    
+    #_jobseeker h2{
+        color: #6495ed;
+        font-weight: 700;
+    }
+    
+    #_jobseeker h6{
+        color: #8991a0;
+        font-weight: 400;
+    }
+    
+    #_jobseeker a{
+        text-decoration: none;
+        color: #6495ed;
+    }
+    
+    #_jobseeker a:hover{
+        text-decoration: underline;
+        color: #9268ec;
+    }
+
+    .job-seekers-bottom h3 strong{
+        color: red;
+    }
+    
+    /* Job Seekers section css end */
+
+    /* Employers section css start */
+
+#main-employers{
+    padding: 5%;
+}
+
+#main-employers .container{
+    width: 80%; 
+}
+
+#main-employers h2{
+    color: #6495ed;
+    font-weight: 700;
+}
+
+#main-employers h6{
+    color: #8991a0;
+    font-weight: 400;
+}
+
+#main-employers .col-lg-8,.col-lg-4{
+    height: 300px;
+}
+
+.contentwithslide .col-md-12,.col-sm-12{
+    height: auto !important;
+}
+
+
+.contentwithslide p{
+    font-family: 'Merriweather, serif';
+    font-size: 16px;
+    line-height: 2rem;
+}
+
+#main-employers a{
+    text-decoration: none;
+    color: #6495ed;
+}
+
+#main-employers a:hover{
+    text-decoration: underline;
+    color: #9268ec;
+}
+/* Employers section css end */
+
+.blue-container{
+    background: #6495ed;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #fff;
+}
+
+.info-container{
+    width: 80%;
+    margin: auto;
+    background: #eee;
+    
+}
+
+.white-container{
+    background: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.white-container label{
+    display: block;
+    color: #666;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+/* .blue-container,.white-container{
+    padding: 30px 30px 30px 30px;
+} */
+
+#register, #login{
+    background: #eee;
+}
+
+.custom-radio{
+    position: relative;
+}
+.custom-radio label{
+    padding-left: 30px;
+}
+
+.custom-radio input{
+    position: absolute;
+    left: 0;
+    
+}
+
+#login .form-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#login .form-row label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#login .form-row input{
+    width: 100%;
+    font-size:15px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px #e5e5e5 solid;
+}
+
+#login .form-row input:focus{
+    border: 1px #6495ed solid;
+    outline: none;        
+}
+
+#login .form-last-row input{
+    padding: 10px;
+    background:  #6495ed;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin: 10px 0 10px 0;
+    width: 100px; 
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;       
+}
+
+
